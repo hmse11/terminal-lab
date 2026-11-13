@@ -26,7 +26,7 @@ mv trabajo/*.sh organized/scripts/
 mv trabajo/*.txt organized/documentos/
 mv trabajo/*.md organized/documentos/
 mv trabajo/*.jpg organized/imagenes/
-mv trabajo/*.log organized/registros/
+mv -f trabajo/*.log organized/registros/
 
 # Permisos por categoria 
 chmod 755 organized/scripts/*.sh
