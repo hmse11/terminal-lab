@@ -22,3 +22,11 @@ echo""
 echo "=== Lineas com error 500 ==="
 # Los espacios alrededor de 500 evitan coincidir con tamaños o rutas
 grep " 500 " "$LOG" || echo "(ninguna)"
+
+echo ""
+echo "=== Hora pico (hora con mas peticiones) ==="
+# La hora esta dentro de [fecha:hora:min:seg]; dos cortes la aislan
+cut -d'[' -f2 "$LOG" | cut -d':' -f2 | sort | uniq -c | sort -nr | head -n 1
+
+echo ""
+echo "Analisis completado."
