@@ -9,3 +9,12 @@ listar_tareas() {
   done
 }
 
+agregar_tarea() {
+  local desc id
+  read -rp "Descripción (sin comas): " desc
+  validar_no_vacia "$desc" || return 1
+  # El id nuevo es el mayor existente más uno
+  id=$(awk -F',' 'NR>1 && $1>max {max=$1} END {print max+1}' "$DATOS")
+  echo "$id,$desc,pendiente,$(date +%F)" >> "$DATOS"
+  echo "✅ Tarea $id agregada."
+}
