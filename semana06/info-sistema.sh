@@ -26,9 +26,15 @@ fi
 	echo "=== Sistema ==="
 	uname -a
 	head -n 5 /etc/os-release
-	uptime -p 
+	uptime -p
 	free -h | head -n 2
+	;;
+      -u)
+	echo "=== Usuario ==="
+	whoami
+	id
+	groups
 	;;
  esac
 
-exit 0 
+exit 0
