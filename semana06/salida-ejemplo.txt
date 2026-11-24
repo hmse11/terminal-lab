@@ -1,0 +1,25 @@
+=== Sistema ===
+Linux SHUANCA 7.0.0-38-generic #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04.1 LTS (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+up 12 hours, 4 minutes
+               total        used        free      shared  buff/cache   available
+Mem:           7.3Gi       3.5Gi       946Mi       120Mi       2.5Gi       3.8Gi
+=== Usuario ===
+shuanca
+uid=1000(shuanca) gid=1000(shuanca) groups=1000(shuanca),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),111(lpadmin),114(lxd)
+shuanca adm cdrom sudo dip plugdev users lpadmin lxd
+=== Disco ===
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.5G  2.7M  1.5G   1% /run
+/dev/sda2        49G  9.3G   38G  20% /
+tmpfs           3.7G     0  3.7G   0% /dev/shm
+tmpfs           3.7G   80K  3.7G   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-networkd.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           743M  116K  743M   1% /run/user/1000
+12K	.
