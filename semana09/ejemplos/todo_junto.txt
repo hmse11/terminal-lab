@@ -1,0 +1,7 @@
+ls: cannot access 'archivo_falso.txt': No such file or directory
+ejemplos/:
+errores.log
+listado.txt
+personas.txt
+personas_modificado.txt
+todo_junto.txt

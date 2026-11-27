@@ -1,0 +1,5 @@
+nombre edad ciudad
+Ana 30 La Paz
+Saul 26 ORURO
+Marta 18 Cochabamba
+Carlos 22 Santa Cruz

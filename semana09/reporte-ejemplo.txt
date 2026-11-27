@@ -1,0 +1,44 @@
+=== Monitor de procesos ===
+Usuario: shuanca
+Fecha: Fri Nov 27 01:35:23 PM -04 2026
+
+=== Procesos del usuario ordenados por %CPU ===
+    PID STAT %CPU %MEM COMMAND
+  43397 R+    100  0.0 ps
+  15310 Ssl   5.2  7.4 gnome-shell
+  16553 Sl    4.5 16.4 firefox
+  17748 Sl    1.8  5.4 Isolated Web Co
+  17371 Sl    1.7  8.9 Isolated Web Co
+  34398 Sl    1.3 10.3 Isolated Web Co
+  16845 Sl    1.3  0.4 snap
+  17558 Sl    0.9  6.2 ptyxis
+  19527 Sl    0.6  6.2 Isolated Web Co
+  39181 Sl    0.5  4.0 gnome-control-c
+  17361 Sl    0.4  6.0 Isolated Web Co
+  17684 Sl    0.2  1.5 Isolated Servic
+  16795 Sl    0.1  2.5 Privileged Cont
+  42738 Sl    0.1  1.0 gjs
+  15690 Ssl   0.1  3.3 xdg-desktop-por
+  32209 Sl    0.1  2.2 file:// Content
+  17191 Sl    0.1  1.4 Isolated Web Co
+  15412 Ssl   0.0  0.1 ibus-daemon
+  35192 Sl    0.0  0.3 glycin-image-rs
+
+=== Proceso de mayor consumo ===
+  15310 gnome-shell      5.2
+
+=== Conteo por estado ===
+      2 R
+    119 S
+      4 T
+
+=== Proceso de prueba ===
+Proceso de prueba lanzado con PID=43408
+    PID STAT CMD
+  43408 S+   sleep 60
+[1]+ 43408 Running                    sleep 60 &
+
+=== Terminacion en dos etapas ===
+Termino correctamente con SIGTERM
+
+Monitoreo completado.

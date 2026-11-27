@@ -1,0 +1,7 @@
+total 16
+drwxrwxr-x  4 shuanca shuanca 4096 Nov 24 04:41 .
+drwxrwxr-x 20 shuanca shuanca 4096 Nov 18 19:18 ..
+-rw-rw-r--  1 shuanca shuanca    0 Nov 24 04:01 README.md
+drwxrwxr-x  2 shuanca shuanca 4096 Nov 24 04:58 ejemplos
+drwxrwxr-x  2 shuanca shuanca 4096 Nov 24 04:47 scripts
+--- Fin del listado ---
