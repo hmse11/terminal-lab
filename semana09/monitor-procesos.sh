@@ -1,6 +1,6 @@
 #!/bin/bash
 # monitor-procesos.sh - Monitor de los procesos del usuario actual
-# Autor: Tu Nombre y Apellido
+# Autor: SAUL ELVIN HUANCA MARCA
 # Fecha: 2026-11-27
 # Uso: ./monitor-procesos.sh
 # Descripcion: informa procesos por consumo y por estado, y demuestra el
